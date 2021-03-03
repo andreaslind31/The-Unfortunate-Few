@@ -2,8 +2,9 @@
 using System.IO;
 using Figgle;
 using System.Threading.Tasks;
+using ClassLibraryLivingThings;
 
-namespace ConsoleApp1
+namespace Start
 {
     public class DifferentMenus
     {
@@ -70,6 +71,8 @@ namespace ConsoleApp1
                 Console.WriteLine("{ 4 } Elfs");
                 Console.WriteLine("{ 5 } Halflings");
                 Console.WriteLine("{ 6 } Humans");
+                Console.WriteLine();
+                Console.WriteLine("\n Press any other key to go back");
                 bool parseNumber = int.TryParse(Console.ReadLine(), out menuNr);
                 if (parseNumber == false)
                 {
@@ -81,7 +84,7 @@ namespace ConsoleApp1
                     case 1:
                         Console.Clear();
                         Header();
-                        await StorySoFar();
+                        await StoryUntilStart();
                         await BackToStoryMenu();
                         break;
                     case 2:
@@ -120,9 +123,9 @@ namespace ConsoleApp1
                 }
             } while (menuNr != 7);
         }
-        public static async Task StorySoFar()
+        public static async Task StoryUntilStart()
         {
-            String filename = "StorySoFar.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\StoryUntilStart.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))
@@ -135,7 +138,7 @@ namespace ConsoleApp1
         }
         public static async Task AboutCentaurs()
         {
-            String filename = "CentaursStory.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\AboutCentaurs.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))
@@ -148,7 +151,7 @@ namespace ConsoleApp1
         }
         public static async Task AboutDwarfs()
         {
-            String filename = "DwarfsStory.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\AboutDwarfs.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))
@@ -161,7 +164,7 @@ namespace ConsoleApp1
         }
         public static async Task AboutElfs()
         {
-            String filename = "ElfsStory.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\AboutElfs.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))
@@ -174,7 +177,7 @@ namespace ConsoleApp1
         }
         public static async Task AboutHalflings()
         {
-            String filename = "HalflingsStory.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\AboutHalflings.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))
@@ -187,7 +190,7 @@ namespace ConsoleApp1
         }
         public static async Task AboutHumans()
         {
-            String filename = "HumansStory.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\AboutHumans.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))

@@ -1,0 +1,5 @@
+﻿Unless you're reading this article from an intergalactic spaceship, you're probably pretty familiar with the human race.
+They're the most common race in the land of Faerûn and are known for being clever, tenacious, and adaptable.
+They're also a jack of all trades because instead of favoring certain ability scores or having special racial perks, humans simply get a small bonus to all of their ability scores.
+
+Ability bonus: +1 to strength, dexterity, constitution, wisdom, intelligence, charisma.

@@ -1,0 +1,9 @@
+﻿I don't think dwarves need much introduction because they're pretty much what you'd expect them to be in any fantasy setting.
+They're boisterous, greedy, deeply protective of their traditions, and always eager to chop a goblin or orc in two. 
+
+Ability bonus: +1 wisdom.
+
+Racial features:
+
+Dwarven Weapon Training: Proficient with axes and hammers.
+Dwarven Resilience: Advantage on saving throws against poison and resistance to poison damage.

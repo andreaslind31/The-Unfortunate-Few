@@ -1,0 +1,12 @@
+﻿Like dwarves, elves in this world pretty much live up to all the stereotypes.
+Living for thousands of years, elves have an acute interest and understanding of magic in all its forms and adore artistic pursuits, nature, and being mildly condescending. 
+
+Ability bonus: +2 dexterity, +1 intelligence
+
+Racial features:
+
+Keen Senses: Proficient with the Intuition skill.
+Fey Ancestry: Advantage on saving throws against being charmed, magic can't put you to sleep.
+Elven Weapon Training: Proficient with swords and bows.
+Condescending aura: Disadvantage with the persuasion skill.
+Darkvision: You can see in dim light within 60 feet as if it were bright light and in darkness as if it were dim light, but you can't see color.

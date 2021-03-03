@@ -1,0 +1,13 @@
+﻿You've seen Lord of the Rings, right? Well then you're already well acquainted with halflings and their inclination toward good drink and better company.
+Because they're so nimble, halflings are natural thieves, but they are also surprisingly tough to break in a fight.
+
+Ability bonus: +1 charisma
+
+Subrace: Lightfoot Halfling, Strongheart Halfling
+
+Racial Features:
+
+Lucky: If you roll a 1 on a d20 for an attack, ability check, or saving throw you can reroll once and must use the value of the second roll.
+Brave: Advantage on saving throws against being frightened.
+Mercurial Step: Base walking speed is 25 feet.
+Naturally Stealthy: Proficient in the Stealth skill.

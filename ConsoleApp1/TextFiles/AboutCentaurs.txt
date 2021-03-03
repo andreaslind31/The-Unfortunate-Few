@@ -1,0 +1,13 @@
+﻿Some say the the centaurs were usually said to have been born of Ixion and Nephele.
+As the story goes, Nephele was a cloud made into the likeness of Hera in a plot to trick Ixion into revealing his lust for Hera to Zeus.
+Ixion seduced Nephele and from that relationship centaurs were created.
+Others say they are just a wierd combination of humans and horses.
+
+Ability bonus: Naturally sturdy: +1 strength, +2 constitution.
+
+Racial Features:
+
+Bull Horns: Rush forward to gore enemies in the path. Roll 1 d8 for attack damage + roll 1 d4 bleeding damage. 
+Big and Clumsy: Disadvantage on Stealth skill check.
+Partially armored: Cant be armored on the horse-part of the body.
+Kicking horse: Double kick backwards. Roll 2 d8 for attack damage. But it exposes a weakness of the centaur, the horse-part cant be armored.
