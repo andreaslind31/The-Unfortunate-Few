@@ -81,6 +81,38 @@ namespace ClassLibraryLivingThings
                 };
             }
         } 
+        private string Description
+        {
+            get { return Description; }
+            set
+            {
+                if (Name == "Jullan") //female Elf, climbing expert, perceptive
+                {
+                    Description = "Once a ";
+                }
+                if (Name == "Fane") //Human male, a likeable 
+                {
+                    Description = "Once a ";
+                }
+                if (Name == "Adalgrim") //Halfling male, 
+                {
+                    Description = "Once a "; 
+                }
+                if (Name == "Virnan") //Elf male, a condescending swords expert, lone wolf
+                {
+                    Description = "Once a "; 
+                }
+                if (Name == "Dweld Fogdefender") //Centaur, male, a noble 
+                {
+                    Description = "Once a ";
+                }
+                if (Name == "Anspori") //Dwarf
+                {
+                    Description = "";
+                }
+            }
+                
+        }
         public enum race { Human = 1, Elf = 2, Dwarf = 3, Centaur = 4, Halfling = 5 }
         race Race { get; set; }
 
@@ -165,6 +197,29 @@ namespace ClassLibraryLivingThings
             this.Intelligence = intelligence;
             this.Wisdom = wisdom;
             this.Charisma = charisma;
+        }
+        public static void CreateOriginCharacters()
+        {
+            Character Fane = new Character
+                (name: "Fane", race: Character.race.Human, strength: 13, dexterity: 9, constitution: 11, intelligence: 12, wisdom: 13, charisma: 15);
+            Character Adalgrim = new Character
+                (name: "Adalgrim", race: Character.race.Halfling, strength: 9, dexterity: 15, constitution: 11, intelligence: 10, wisdom: 12, charisma: 10);
+            Character Virnan = new Character
+                (name: "Virnan", race: Character.race.Elf, strength: 12, dexterity: 14, constitution: 10, intelligence: 15, wisdom: 12, charisma: 8);
+            Character DweldFogdefender = new Character
+                (name: "Dweld Fogdefender", race: Character.race.Centaur, strength: 14, dexterity: 9, constitution: 16, intelligence: 10, wisdom: 12, charisma: 11);
+            Character Anspori = new Character
+                (name: "Anspori", race: Character.race.Dwarf, strength: 15, dexterity: 10, constitution: 13, intelligence: 8, wisdom: 13, charisma: 10);
+            Character Jullan = new Character
+                (name: "Jullan", race: Character.race.Elf, strength: 10, dexterity: 17, constitution: 11, intelligence: 11, wisdom: 10, charisma: 11);
+
+            List<Character> characters = new List<Character>();
+            characters.Add(Jullan);
+            characters.Add(Fane);
+            characters.Add(Adalgrim);
+            characters.Add(Virnan);
+            characters.Add(DweldFogdefender);
+            characters.Add(Anspori);
         }
     }
     public class CharacterCreation : EventArgs { }

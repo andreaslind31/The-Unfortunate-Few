@@ -138,7 +138,7 @@ namespace Start
         }
         public static async Task AboutCentaurs()
         {
-            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\AboutCentaurs.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\ShortStoryRaces\AboutCentaurs.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))
@@ -151,7 +151,7 @@ namespace Start
         }
         public static async Task AboutDwarfs()
         {
-            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\AboutDwarfs.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\ShortStoryRaces\AboutDwarfs.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))
@@ -164,7 +164,7 @@ namespace Start
         }
         public static async Task AboutElfs()
         {
-            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\AboutElfs.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\ShortStoryRaces\AboutElfs.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))
@@ -177,7 +177,7 @@ namespace Start
         }
         public static async Task AboutHalflings()
         {
-            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\AboutHalflings.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\ShortStoryRaces\AboutHalflings.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))
@@ -190,7 +190,7 @@ namespace Start
         }
         public static async Task AboutHumans()
         {
-            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\AboutHumans.txt";
+            String filename = @"C:\Users\User\Google Drive\Systemutveckling VT-21\The Unfortunate Few\ConsoleApp1\TextFiles\ShortStoryRaces\AboutHumans.txt";
             Char[] buffer;
 
             using (var sr = new StreamReader(filename))
@@ -240,12 +240,71 @@ namespace Start
                     case 2:
                         Console.Clear();
                         Header();
-
+                        await StoryOfOriginChars();
                         break;
                     case 3:
                         Console.Clear();
                         Header();
                         await StoryMenu();
+                        break;
+                    default:
+                        Console.WriteLine("Nope");
+                        break;
+                }
+            } while (menuNr != 4);
+        }
+        public static async Task StoryOfOriginChars() 
+        {
+            Console.Clear();
+            Header();
+            int menuNr;
+            do
+            {
+                Console.WriteLine("{ 1 } Fane, human male");
+                Console.WriteLine("{ 2 } Adalgrim, male halfling");
+                Console.WriteLine("{ 3 } Virnan, male elf");
+                Console.WriteLine("{ 4 } Dweld Fogdefender, female centaur");
+                Console.WriteLine("{ 5 } Anspori, female dwarf");
+                Console.WriteLine("{ 6 } Jullan, female elf");
+                Console.WriteLine();
+
+                bool parseNumber = int.TryParse(Console.ReadLine(), out menuNr);
+                if (parseNumber == false)
+                {
+                    Console.WriteLine("Enter a correct number");
+                    break;
+                }
+                switch (menuNr)
+                {
+                    case 1:
+                        Console.Clear();
+                        Header();
+                        
+                        break;
+                    case 2:
+                        Console.Clear();
+                        Header();
+
+                        break;
+                    case 3:
+                        Console.Clear();
+                        Header();
+
+                        break;
+                    case 4:
+                        Console.Clear();
+                        Header();
+
+                        break;
+                    case 5:
+                        Console.Clear();
+                        Header();
+
+                        break;
+                    case 6:
+                        Console.Clear();
+                        Header();
+
                         break;
                     default:
                         Console.WriteLine("Nope");

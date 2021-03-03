@@ -10,4 +10,5 @@ Racial Features:
 Bull Horns: Rush forward to gore enemies in the path. Roll 1 d8 for attack damage + roll 1 d4 bleeding damage. 
 Big and Clumsy: Disadvantage on Stealth skill check.
 Partially armored: Cant be armored on the horse-part of the body.
-Kicking horse: Double kick backwards. Roll 2 d8 for attack damage. But it exposes a weakness of the centaur, the horse-part cant be armored.
+Kicking horse: Double kick with mighty force. Roll 2 d8 for attack damage. Exposes the back part of the centaur to the target.
+Naturally diplomatic: Advantage with the Persuasion skill check.
